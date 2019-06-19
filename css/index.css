@@ -1,0 +1,57 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    background: rgb(236, 236, 236);
+}
+.title{
+    color: rgb(1, 108, 170);
+    text-align: center;
+    margin: 24px auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+.content{
+    padding: 24px;
+}
+
+.tip{
+    margin: 4px;
+    color: rgb(114, 114, 114);
+}
+.txt{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 4px;
+    margin-bottom: 8px;
+}
+.btn{
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    background: rgb(1, 108, 170);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.view{
+    display: none;
+    padding: 24px;
+    margin: 24px auto;
+    background: rgb(78, 78, 78);
+}
+.view .tip{
+    color: #fff;
+}
+.canvas{
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.cartoon{
+    margin-bottom: 20px;
+}
+.css{
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.04);
+    color: rgb(226, 226, 226);
+    font-size: 14px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>动画图集生成工具</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/index.js"></script>
+  </head>
+  <body>
+
+    <div class="content">
+
+      <div class="title">动画图集生成工具</div>
+
+      <div class="tip">输入图片地址，替换的内容用*代替，如：/asset/man*.png</div>
+      <input class="txt path" type="text">
+      <div class="tip">输入起始数据，如：1-8</div>
+      <input class="txt num" type="text">
+      <div class="tip">输入缩放倍数，如：0.8</div>
+      <input class="txt scale" type="text">
+      <div class="btn" onclick="start()">生成图集</div>
+
+      <div class="view">
+        <div class="tip">动画图集：</div>
+        <canvas class="canvas"></canvas>
+        <div class="tip">动画预览：</div>
+        <div class="cartoon"></div>
+        <div class="tip">动画样式：</div>
+        <div class="css"></div>
+      </div>
+
+    </div>
+
+  </body>
+</html>
